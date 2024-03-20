@@ -24,22 +24,22 @@ The preprocessing steps involve:
 - **Normalization/Scaling**: Numerical features are scaled to a uniform range to enhance the performance of our machine learning algorithms, particularly for distance-based models.
 
 ## Project Structure
-This repository is organized to facilitate easy navigation and understanding:
+This repository is organized to facilitate easy navigation and understanding, ensuring that stakeholders can interact with and explore the project with ease:
 
-- `/data`: Contains the dataset used for analysis and modeling.
-- `/models`: Saved trained machine learning models.
-- `/notebooks`: Jupyter notebooks for exploratory data analysis and model development.
-- `/scripts`: Python scripts for automating the model training, prediction, and plotting processes.
-- `/app`: Streamlit application files for interactive visualization and prediction.
+- `/data`: Contains the `pizza_orders.csv` dataset used for analysis and modeling. This file encompasses a year's worth of pizza order data, offering a comprehensive view into sales patterns and customer preferences.
+- `/models`: Houses saved trained machine learning models, including our primary Random Forest and Linear Regression models, enabling easy access and deployment for future forecasting.
+- `/notebooks`: Features the `Pizza_Sales_Analysis.ipynb` Jupyter notebook, which details our exploratory data analysis, feature engineering, and the iterative process of model training and evaluation.
+- `/scripts`: Python scripts for automating the model training, prediction, and plotting processes, streamlining the workflow from raw data to actionable insights.
+- `/app`: Contains Streamlit application files for an interactive visualization and prediction interface, enhancing the stakeholder experience by making our findings accessible and actionable.
 
 ## Installation and Setup
-To set up this project on your local machine, follow these steps:
+Setting up this project on your local machine is straightforward. Begin by cloning the repository and installing the required dependencies:
 
 ```bash
 # Clone the project repository
 git clone https://github.com/your-username/PizzaTimeSeriesForecasting.git
 
-# Navigate to the project folder
+# Navigate to the project directory
 cd PizzaTimeSeriesForecasting
 
 # Install the necessary dependencies
