@@ -4,17 +4,14 @@
 This project focuses on forecasting pizza sales using time series analysis. It aims to provide insights into sales dynamics, which can be used for strategic business planning, inventory management, and staffing.
 
 - **Dataset**: The dataset was taken from kaggle. and contains 1 year worth of data about pizza orders. That translates into 48620 rows ordered by date and time.
-- **Goal**: The goal is to accurately predict weekly pizza sales, enabling effective staff scheduling and inventory management
+- **Goal**: Predict sales of Hawaiian pizza for the next 30 days
 - **Authors**: Maïca Muñoz Cuevas, Ignacio Ferro, Mohammed Alotaibi, Jose Carranque, Maria Jose Perez Gomez, Rodrigo Reyes
 
 ## Machine Learning Model
 
-
 - **Random Forest Regressor**: Chosen for its strength in handling the complexity of non-linear relationships and interactions between features without extensive hyperparameter tuning.
 
-- **Linear Regression**: Used as a baseline to benchmark the performance of more complex models.
-
-- **Time Series Forecasting**: Special attention is given to time series forecasting models to predict future sales based on historical patterns, taking into account seasonal trends and cyclical behavior inherent in the sales data.
+- **RandomizedSearchCV**: Used for the cross-validation
 
 ## High-Level Data Preprocessing:
 Our project begins with a robust preprocessing pipeline that transforms raw sales data into a clean, structured format ready for analysis. 
